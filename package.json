@@ -1,6 +1,6 @@
 {
   "name": "loopback-post-mixin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A mixin to automatically generate POST methods for loopback Models",
   "main": "lib/index.js",
   "scripts": {
@@ -19,7 +19,8 @@
     "url": "https://github.com/IBMResearch/loopback-post-mixin.git"
   },
   "dependencies": {
-    "debug": "2.x"
+    "debug": "2.x",
+    "lodash": "^4.16.4"
   },
   "peerDependencies": {
     "loopback-datasource-juggler": ">=2.48.0"

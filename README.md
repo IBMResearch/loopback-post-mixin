@@ -10,6 +10,7 @@ You can put me in your package.json dependencies. The `npm` tool can do this for
 
 ## Configuration
 
+`assignProperties` will be assign properties instead of merge.
 
 ### model-config.json
 
@@ -47,7 +48,7 @@ To use with your Models add the `mixins` attribute to the definition object of y
     },
     "mixins": {
       "PostMethod" : {
-        ...
+        "assignProperties": false
       }
     }
   }
