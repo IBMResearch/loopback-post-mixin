@@ -26,7 +26,7 @@ Add the `mixins` property to your `server/model-config.json`:
     ],
     "mixins": [
       "loopback/common/mixins",
-      "../node_modules/loopback-post-mixin",
+      "../node_modules/loopback-post-mixin/lib",
       "../common/mixins"
     ]
   }
