@@ -1,0 +1,27 @@
+{
+  "name": "loopback-post-mixin",
+  "version": "0.0.1",
+  "description": "A mixin to automatically generate POST methods for loopback Models",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loopback",
+    "strongloop",
+    "mixin",
+    "post"
+  ],
+  "author": "Jorge Carballo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBMResearch/loopback-post-mixin.git"
+  },
+  "dependencies": {
+    "debug": "2.x"
+  },
+  "peerDependencies": {
+    "loopback-datasource-juggler": ">=2.48.0"
+  }
+}
