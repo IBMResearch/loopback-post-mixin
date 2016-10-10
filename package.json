@@ -1,6 +1,6 @@
 {
   "name": "loopback-post-mixin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A mixin to automatically generate POST methods for loopback Models",
   "main": "lib/index.js",
   "scripts": {
